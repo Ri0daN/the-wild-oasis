@@ -15,9 +15,8 @@ import Checkin from './pages/Checkin';
 import PageNotFound from './pages/PageNotFound';
 import AppLayout from './ui/AppLayout';
 import Booking from './pages/Booking';
-import CheckinBooking from './features/check-in-out/CheckinBooking';
 import ProtectedRoute from './ui/ProtectedRoute';
-import { DarkModeProvider } from './context/DarkModecontext';
+import { DarkModeProvider } from './context/DarkModeContext';
 
 const queryClient = new QueryClient({
   defaultOptions: {
